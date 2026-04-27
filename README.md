@@ -1,7 +1,7 @@
 # The absence of data strings as a purposeful tactic of "permanent deletion" towards immigrants
 research into ice database system + the purposeful absence of data to dehumanize immigrants  
 
-What is a data string? Why is it relevant to migrants detained by ICE?
+What is a data string? Why is it relevant to immigrants detained by ICE?
 
 A data string is a data type in a form of sequences, either in text, characters, integers, or bytes
 A data string is an integral part of creating a database structure. It is a way to categorize information and allow for users to easily retrieve and save data. 
