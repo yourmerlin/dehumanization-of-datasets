@@ -1,14 +1,29 @@
 # The absence of data strings as a purposeful tactic of "permanent deletion" towards immigrants
-research into ice database system + the purposeful absence of data to dehumanize immigrants  
+research into the ICE database system + the purposeful absence of data to dehumanize immigrants 
+
+
+# Why ?
+
+As an artist, technologist, and activist, I wanted to unpack the 'false' complexities of the tech industry. Often, people with no knowledge in programming or technology feel like they can never fully understand this industry. It feels like "if you know, you know" situation. This false sense of academic elitism disproportionately affects the working class, immigrants, and BIPOC communities, and places programming on a pedestal for the elite. Of course, there are complexities in understanding mathematical equations and logical structures, but the very basics can be explained in simple terms. These systems can be broken down in plain language. 
+
+In an era where we are in an 'AI' & 'tech' boom, these boundaries become harder to break through. When resources become harder to access and the wealth gap widens, accessibility to learning these systems that surveil us, control us, and have become necessities in our lives diminishes. Without fundamental knowledge of these systems, this leads to more control by the government and the wealthy. By understanding these systems, we can use this knowledge as a form of resistance and protest. This 'tech boom' is not the full future of our society. 
+
+It often feels hopeless to think of the future when it feels like it has already been decided for you. Or what is even the point of studying or learning certain things when a machine can do it for you? As a technologist, I can understand the importance of this tech revolution for innovation, but as an artist, I'll never fully give up my autonomy, passion, and individuality to a machine. Make technology work for you, not the other way around. 
+
+# Abstract: 
+(shall write on later)
+
 
 What is a data string? Why is it relevant to immigrants detained by ICE?
 
-A data string is a data type in a form of sequences, either in text, characters, integers, or bytes
-A data string is an integral part of creating a database structure. It is a way to categorize information and allow for users to easily retrieve and save data. 
+A data string is a data type in the form of sequences, either in text, characters, integers, or bytes.
+A data string is an integral part of creating a database structure. It is a way to categorize information and allow users to easily retrieve and save data. A database is basically a spreadsheet of categories of information. 
 
-The relevance of databases plays an integral part in the dehumanization and attempt of 'permanent deletion' of immigrants in the US. My main research was learning how ICE organizes their database system and what information is publicly available for everyone to view. This information is not readily available through ICE's website, yet can be obtained via public records litigation. These legal avenues to obtain this information are a headache, that no average individual can simply find. Although, there are websites, like TRAC and deportation data project, that organize the data more easily and allow for easy public access. These websites are still hard to navigate for the average person, especially with no programming background. On the deportation data project, they do have extensive information on how to read and interpret this data--at the end of the day it is a large spreadsheet that is not easily digestible for people. 
+The relevance of databases plays an integral part in the dehumanization and attempt of 'permanent deletion' of immigrants in the US. My main research was learning how ICE organizes their database system and what information is publicly available for everyone to view. This information is not readily available through ICE's website, yet can be obtained via public records litigation. These legal avenues are a headache that no average individual can simply find. However, there are websites, like TRAC and the Deportation Data Project, that organize the data more easily and allow for easy public access. These websites are still hard to navigate for the average person, especially with no programming background. On the Deportation Data Project, they do have extensive information on how to read and interpret this data — at the end of the day, it is a large spreadsheet that is not easily digestible for people. 
 
-After carefully reading through the database and researching legal jargon on what certain phrases and words meant, I was able to uncover the absence and/or lack of data the ICE database contains, and able to understand the change of pattern and the rise of ICE presence due to Trump's presidential start. 
+After carefully reading through the database and researching legal jargon on what certain phrases and words meant, I was able to uncover the absence and/or lack of data the ICE database contains, and was able to understand the shift in patterns and the rise of ICE presence since the start of Trump's presidency. 
 
-Before we get more 
+Before I explain the why, you must understand the way the system works.
+The Deportation Data Project separates the data into major categories like ICE Arrests, ICE Facility daily populations, and more. I will be focusing on the two major categories, ICE Arrests and ICE Facility Daily Populations. When ICE detains someone, they save basic information like when, where, 'type of arrest', 'method of arrest', birth year, gender, citizenship country, any criminal offense, and more. The public database does not contain the immigrant's full name, images, or any detailed personal information. This database is supposed to be 'anonymous' so it 'protects' from doxxing personal information. 
 
+In ICE's Arrest database, they purposely use legal or unfamiliar jargon to throw off users from understanding the data and make it difficult to truly uncover their heinous and inhumane approaches. They hide behind terms to confuse the general population. 
