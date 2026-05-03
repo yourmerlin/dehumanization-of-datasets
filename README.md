@@ -14,28 +14,20 @@ It often feels hopeless to think of the future when it feels like it has already
 (shall write on later)
 
 
-What is a data string? Why is it relevant to immigrants detained by ICE?
+# What is a data string? Why is it relevant to immigrants detained by ICE?
+A data string is a data type in the form of a sequence — either text, characters, integers, or bytes. Data strings are an integral part of creating a database structure: they are the mechanism by which information is categorized, allowing users to easily retrieve and store data. A database is, at its most basic level, a structured spreadsheet of categorized information.
 
-A data string is a data type in the form of sequences, either in text, characters, integers, or bytes.
-A data string is an integral part of creating a database structure. It is a way to categorize information and allow users to easily retrieve and save data. A database is basically a spreadsheet of categories of information. 
+The role of databases is central to understanding the dehumanization and attempted “permanent deletion” of immigrants in the United States. The core of my research involved examining how ICE organizes its database system and what information is publicly available.
 
-The relevance of databases plays an integral part in the dehumanization and attempt of 'permanent deletion' of immigrants in the US. My main research was learning how ICE organizes their database system and what information is publicly available for everyone to view. 
+This information is not readily available through ICE’s website, but can be obtained through public records litigation — a process that requires submitting a detailed request explaining why you need the information and how you intend to use it. This process is lengthy and burdensome. Fortunately, activists have fought to make this data publicly available and have built web applications to routinely update it. To keep the information current, they must continuously submit new records requests, holding this data publicly accountable.
+Websites like TRAC and the Deportation Data Project organize this data in more accessible formats and allow for public access. These websites are still difficult to navigate for the average person, particularly those without a programming background. The Deportation Data Project does provide extensive documentation on how to read and interpret the data — but at the end of the day, it is a large spreadsheet filled with legal jargon that is not easily digestible.
 
-This information is not readily available through ICE's website, yet can be obtained via public records litigation. 
+After carefully reading through the database and researching the legal terminology, I was able to uncover the absence and lack of data that the ICE database contains, and to identify shifts in patterns and the rise of ICE activity since the start of Trump’s presidency.
 
-What 'public records litigation' means is that you have fill out a detailed request, explaing why you need it and what you will do with this information. This can be long and tedious thing to do. Luckily, activists had fought to get this data to be publicaly avaliable and create web applications to routinely update the information. To update the information consistantly, they must constaly submit new forms to gather this data. They are making sure that this information is publically held accountable. 
+# Before I explain the why, you must understand how the system works.
 
-
- Luckily, there are websites, like TRAC and the Deportation Data Project, that organize the data more easily and allow for easy public access. These websites are still hard to navigate for the average person, especially with no programming background. On the Deportation Data Project, they do have extensive information on how to read and interpret this data — at the end of the day, it is a large spreadsheet filled with legal jardon that is not easily digestible for people. 
-
-After carefully reading through the database and researching legal jargon on what certain phrases and words meant, I was able to uncover the absence and/or lack of data the ICE database contains, and was able to understand the shift in patterns and the rise of ICE presence since the start of Trump's presidency. 
-
-Before I explain the why, you must understand the way the system works.
-
-The Deportation Data Project separates the data into major categories like ICE Arrests, ICE Facility daily populations, and more. I will be focusing on the two major categories, ICE Arrests and ICE Facility Daily Populations.
-When ICE detains someone, they save basic information like when, where, 'type of arrest', 'method of arrest', birth year, gender, citizenship country, any criminal offense, and more. The public database does not contain the immigrant's full name, images, or any detailed personal information. This database is supposed to be 'anonymous' so it 'protects' from doxxing personal information. 
-
-In ICE's Arrest database, they purposely use legal or unfamiliar jargon to throw off users from understanding the data and make it difficult to truly uncover their heinous and inhumane approaches. They hide behind terms to confuse the general population. 
+The Deportation Data Project separates its data into major categories such as ICE Arrests and ICE Facility Daily Populations. I will be focusing on these two major categories. When ICE detains someone, it records basic information: the date and location of arrest, the “type” and “method” of arrest, birth year, gender, country of citizenship, any criminal offense, and more. The public-facing database does not include the immigrant’s full name, images, or detailed personal information — ostensibly to protect against doxxing.
+Within ICE’s arrest database, the agency deliberately employs legal and unfamiliar jargon to obscure what the data reveals and to make it difficult for the public to uncover their inhumane practices. They hide behind terminology designed to confuse.
 
 Some of my key questions and findings were:
 -- What does Apprehension_type mean?
@@ -45,11 +37,19 @@ Some of my key questions and findings were:
 Here are two charts 1 visualizing the grief and overwhelming amount of people wrongfully detained by ICE, showcasing the permanent absence of their existence in the US, by visually erasing the US by each indiviual taken
 2 chat visualizing the absence of data on a graph to show the intentional gaps in the data. how this negligence and mismanagement is purposeful
 
-yes people can argue, its a large organization, mismanagment happens, databases gets backed up, etc. While true, under every large organization, this negligence and mismanagement shows their lack of care and a way to control the narrative. Especially in an age where we do have the tools to mass surveil, exibit a, ICE actually uses surveillance technology to keep track of immigrants, via using smartlink, ankle monitors or other ways. Therefore, they do have access to tools to rightfully save the data. Historically and socially, mass surveillance tools was a way for police, ice and other government organizations to create their own narrative by having overwhemling amount of data in certain geographical areas. Tools of mass surveillance and overcollection of data has been used by the government to create their own racial narratives. 
 
-An excerpt by virgina Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor, she talks about how many of our devices that collect our information and monitor our actions are inscrutable, invisible pieces of code. they are embedded in our social media interactions,flow through applications for government services... they are so deeply woven into every fabric of social life that most of the time, we dont even notice we are being watched or analyzed. In her specific case she was referencing how low income marginalized communities are often in legal debates about insurance investigations because it is harder for those individuals to have their insurance pay for certain things, which results in mass amount of debt from hospital fees. 
+# The Intentional Absence of Data
 
-She also discusses how marginalized groups face higher level of data collection when they access public benefits, walk through highly policed neighborhoods, enter the health-care system, or cross national borders. This showcases the clear abdunce of data collection as a way to gain control over these marginalized communities, wouldnt the complete absence of data be another tactic of the government to contorl narratives? They are not limited by the access of their tools, so this mismanagement of data should be be a result of lack of access to tools. This is a result of negligence, purposeful carelessness over the autonomy of immigrants. A purposeful tactic to control the narrative, to decrease the amount of people, places or absolutely digusting, horrific situations the government has partaken in. The absence of thse data strings, is further used to push for the 'permant deletion' of immigrants. If there is not evidence of their heinous action, they can not be held accountable. This absence is further dehumanization of immigrants, outside of the horrors we have seen ICE treat them inside and outside detention centers. This further dehumanization is in our code, our technology. They simply become numbers, if they were luckily counted, than seen as actual human beings, being abused by our governmental system.
+Some may argue that this is simply the result of mismanagement: large organizations have data backlogs, systems fail, errors accumulate. While that is partially true, under any large organization, persistent negligence and mismanagement reveals a lack of care — and functions as a way to control the narrative. This is especially significant in an era when the tools for mass surveillance are readily available and actively used. ICE itself uses surveillance technology to monitor immigrants, including SmartLink check-ins, ankle monitors, and other tracking methods. They have access to the tools needed to properly record data. The failure to do so is not a limitation of capacity; it is a choice.
+
+Historically and socially, mass surveillance tools have been deployed by police, ICE, and other government agencies to construct their own racial narratives — overcollecting data in certain geographic areas to justify disproportionate enforcement. This overcollection has long been used to criminalize marginalized communities.
+
+In her book Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor, Virginia Eubanks writes about how many of the devices that collect our information and monitor our actions are inscrutable, invisible pieces of code — embedded in our social media interactions and woven through applications for government services. In her specific analysis, she examines how low-income and marginalized communities are disproportionately entangled in insurance investigations and burdened with medical debt as a result of algorithmic decision-making.
+
+Eubanks also discusses how marginalized groups face higher levels of data collection when they access public benefits, walk through heavily policed neighborhoods, enter the healthcare system, or cross national borders. This abundance of data collection is used as a mechanism of control over marginalized communities. So then, wouldn’t the complete absence of data be another tactic of that same control? The government is not limited by the availability of tools, so the mismanagement of data cannot be attributed to a lack of access. It is the result of negligence — purposeful carelessness toward the autonomy of immigrants.
+
+This is a deliberate tactic to control the narrative: to reduce the documented number of people, places, and horrific situations the government has been responsible for. The absence of these data strings further advances the “permanent deletion” of immigrants. If there is no evidence of their actions, accountability becomes impossible. This absence is another form of dehumanization — one that operates not in detention centers but in code, in databases, in the infrastructure of government technology. Immigrants become numbers, if they are counted at all, rather than human beings being abused by the very systems meant to govern justly.
+
 
 -- (data point of apprehension by criminality)
 -- since trumps presidency, the surge of '3 immigration violation' apprehension of criminality 
@@ -60,4 +60,3 @@ She also discusses how marginalized groups face higher level of data collection 
 -- shows a detailed lack of landmark evidence 
 -- although in some data points, it is shown that landmarks have existing data, this is only tied to certain detainees who have been in the criminal system, and are currently detained/incarciated
 -- however, for the majority of detainees, which are only violating immigration charges, 
-I 
