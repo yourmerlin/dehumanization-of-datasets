@@ -43,16 +43,18 @@ Apprehension_by_criminality refers to the reason a person was detained: did they
 
 Apprehension_landmark is supposed to indicate where a detainee was originally apprehended. However, this field is documented as being used inconsistently across records — sometimes containing the name of a police department, sheriff's office, or local jail, but more often absent entirely. My analysis found this gap to be especially pronounced for individuals whose only offense was an immigration violation. The location of their detainment, in many cases, simply does not exist in the record. This is where the absence of data becomes most visible — and, this paper argues, most deliberate.
 
+![alt-text-2](landmark_percentages.png)
+<sub>University of Washington Center for Human Rights (UWCHR), "Proportion of arrests missing apprehension_landmark value, by arrest method," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sub>
+
+This chart shows the amount of landmark_null across the various apprehension methods. I want to focus on two: Ro repressed value and Inspections. These types of apprehension methods are usually tied to people who have only committed an immigration violation. The abundance of data in the other categories is because those detainees were already in the legal system, via incarceration, jail, or prison. There is a higher lack of data (null data) in areas where people only violated immigration rules. If the majority of people detained are these individuals, it shows a clear carelessness.
 
 ![alt-text-1](landmark_graph.png)
 <sub>University of Washington Center for Human Rights (UWCHR), "Proportion of encounters missing landmark value," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sub>
 
 
-![alt-text-2](landmark_percentages.png)
-<sub>University of Washington Center for Human Rights (UWCHR), "Proportion of arrests missing apprehension_landmark value, by arrest method," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sub>
+This graph specifically shows the prevalence of landmark_null, which averages around 40–50%. For an organization this large, with the tools and access needed to record this data, such a high rate of missing values is a sign of negligence.
 
-Here are two charts 1 visualizing the grief and overwhelming amount of people wrongfully detained by ICE, showcasing the permanent absence of their existence in the US, by visually erasing the US by each indiviual taken
-2 chat visualizing the absence of data on a graph to show the intentional gaps in the data. how this negligence and mismanagement is purposeful
+These two charts visualize the absence of data to show the intentional gaps in the record and how this negligence and mismanagement is purposeful.
 
 
 # The Intentional Absence of Data
@@ -82,11 +84,12 @@ This is only measuring from October 2022 to March 2026—of people that we know 
 We often get overwhelmed by mass amounts of visualization. This is the emptiness of it.
 
 # References
-Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (New York: St. Martin's Press, 2018).
-
-Mimi Onuoha, "On Missing Datasets," GitHub repository, 2016, https://github.com/MimiOnuoha/missing-datasets.
 
 David Hausman, "U.S. Immigration Enforcement Data," California Law Review Online 16, no. 13 (March 2025), https://www.californialawreview.org/online/immigration-enforcement-guide.
 
+Mimi Onuoha, "On Missing Datasets," GitHub repository, 2016, https://github.com/MimiOnuoha/missing-datasets.
+
 University of Washington Center for Human Rights (UWCHR), "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.
+
+Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (New York: St. Martin's Press, 2018).
 
