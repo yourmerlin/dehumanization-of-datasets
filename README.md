@@ -46,11 +46,11 @@ Apprehension_landmark is supposed to indicate where a detainee was originally ap
 
 
 ![alt-text-1](landmark_graph.png)
-<sub><sup>University of Washington Center for Human Rights (UWCHR), "Proportion of encounters missing landmark value," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sup></sub>
+<sub>University of Washington Center for Human Rights (UWCHR), "Proportion of encounters missing landmark value," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sub>
 
 
 ![alt-text-2](landmark_percentages.png)
-<sub><sup>University of Washington Center for Human Rights (UWCHR), "Proportion of arrests missing apprehension_landmark value, by arrest method," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sup></sub>
+<sub>University of Washington Center for Human Rights (UWCHR), "Proportion of arrests missing apprehension_landmark value, by arrest method," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sub>
 
 Here are two charts 1 visualizing the grief and overwhelming amount of people wrongfully detained by ICE, showcasing the permanent absence of their existence in the US, by visually erasing the US by each indiviual taken
 2 chat visualizing the absence of data on a graph to show the intentional gaps in the data. how this negligence and mismanagement is purposeful
@@ -82,4 +82,6 @@ Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, an
 Mimi Onuoha, "On Missing Datasets," GitHub repository, 2016, https://github.com/MimiOnuoha/missing-datasets.
 
 David Hausman, "U.S. Immigration Enforcement Data," California Law Review Online 16, no. 13 (March 2025), https://www.californialawreview.org/online/immigration-enforcement-guide.
+
+University of Washington Center for Human Rights (UWCHR), "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.
 
