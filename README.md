@@ -81,6 +81,7 @@ If you think that is alot, this image actually represents a 20:1 scale.
 This is the real 1:1 scale.
 
 ![alt text](erasuremap1x1scale.png)
+<sub>My own Inforgraphic, refer to erasuremap.html</sub>
 
 This is only measuring from October 2022 to March 2026—of people that we know of, on top of the previous years. Each individual's absence from this country is permanent; it's left in the places they've been, the people they have left behind, the objects they owned. Their disappearance will never be forgotten. Their imprint will forever be permanent, regardless of whether the government tries to erase them.
 
