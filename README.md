@@ -86,7 +86,21 @@ This is only measuring from October 2022 to March 2026—of people that we know 
 
 We often get overwhelmed by mass amounts of visualization. This is the emptiness of it.
 
+# Future Steps
+
+I want to further explore this research and create a 'manifesto' for the average person — one that makes this data readable, accessible, and interpretable. I do plan to create a more artistic data visualizer to represent the immigrants taken by ICE and re-humanize them.
+
+These resources and this knowledge shouldn't be paywalled or limited by stupid legal or programming jargon. People need to be aware of what is happening — both physically and on the technological side.
+
+As a fan of Aaron Swartz: "we need to take information, wherever it is stored, make our copies and share them with the world. We need to take stuff that's out of copyright and add it to the archive. We need to buy secret databases and put them on the Web. We need to download scientific journals and upload them to file sharing networks. We need to fight for Guerrilla Open Access.
+
+So will you join us?"
+
+— Love, merlin
+
 # References
+
+Aaron Swartz, "Guerrilla Open Access Manifesto," July 2008, https://ia800101.us.archive.org/1/items/GuerillaOpenAccessManifesto/Goamjuly2008.pdf.
 
 Ansari, Hibah. "Inside an ICE Detention Center: Detained People Describe Severe Medical Neglect, Harrowing Conditions." American Civil Liberties Union, December 17, 2025. https://www.aclu.org/news/immigrants-rights/inside-an-ice-detention-center-detained-people-describe-severe-medical-neglect-harrowing-conditions. 
 
@@ -97,6 +111,7 @@ Mimi Onuoha, "On Missing Datasets," GitHub repository, 2016, https://github.com/
 University of Washington Center for Human Rights (UWCHR), "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.
 
 Transactional Records Access Clearinghouse. "About the FOIA Project." FOIAproject.org. Accessed May 4, 2026. https://foiaproject.org/about/.
+
 
 Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (New York: St. Martin's Press, 2018).
 
