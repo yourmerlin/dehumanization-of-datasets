@@ -45,6 +45,8 @@ Apprehension_landmark is supposed to indicate where a detainee was originally ap
 
 ![alt text](erasuremap.png)
 
+![alt text](landmark_graph.png)![alt text](landmark_percentages.png)
+
 Here are two charts 1 visualizing the grief and overwhelming amount of people wrongfully detained by ICE, showcasing the permanent absence of their existence in the US, by visually erasing the US by each indiviual taken
 2 chat visualizing the absence of data on a graph to show the intentional gaps in the data. how this negligence and mismanagement is purposeful
 
