@@ -67,7 +67,7 @@ I have also investigated existing works like, the library of missing datasets by
 
 This is a deliberate tactic to control the narrative: to reduce the documented number of people, places, and horrific situations the government has been responsible for. The absence of these data strings further advances the “permanent deletion” of immigrants. If there is no evidence of their actions, accountability becomes impossible. This absence is another form of dehumanization — one that operates not in detention centers but in code, in databases, in the infrastructure of government technology. Immigrants become numbers, if they are counted at all, rather than human beings being abused by the very systems meant to govern justly.
 
-![alt text](erasuremap1x20scale.png)
+![alt text](erasuremap1x2scale.png)
 
 That is actually a 20 x 1 scale. This is the real 1 to 1 scale
 
