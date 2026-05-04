@@ -96,5 +96,7 @@ Mimi Onuoha, "On Missing Datasets," GitHub repository, 2016, https://github.com/
 
 University of Washington Center for Human Rights (UWCHR), "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.
 
+Transactional Records Access Clearinghouse. "About the FOIA Project." FOIAproject.org. Accessed May 4, 2026. https://foiaproject.org/about/.
+
 Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (New York: St. Martin's Press, 2018).
 
