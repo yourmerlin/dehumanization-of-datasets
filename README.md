@@ -15,7 +15,7 @@ This paper examines the structural role of absent and incomplete data within the
 
 
 # What is a data string? Why is it relevant to immigrants detained by ICE?
-A data string is a data type in the form of a sequence — either text, characters, integers, or bytes. Data strings are an integral part of creating a database structure: they are the mechanism by which information is categorized, allowing users to easily retrieve and store data. A database is, at its most basic level, a structured spreadsheet of categorized information.
+A data string is a data type in the form of a sequence---either text, characters, integers, or bytes. Data strings are an integral part of creating a database structure: they are the mechanism by which information is categorized, allowing users to easily retrieve and store data. A database is, at its most basic level, a structured spreadsheet of categorized information.
 
 The role of databases is central to understanding the dehumanization and attempted “permanent deletion” of immigrants in the United States. The core of my research involved examining how ICE organizes its database system and what information is publicly available.
 
