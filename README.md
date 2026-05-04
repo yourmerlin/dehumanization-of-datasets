@@ -1,5 +1,5 @@
 # The absence of data strings as a purposeful tactic of "permanent deletion" towards immigrants
-research into the ICE database system + the purposeful absence of data to dehumanize immigrants 
+research into the ICE database system and the purposeful absence of data to dehumanize immigrants 
 
 
 # Why ?
