@@ -43,10 +43,9 @@ Apprehension_by_criminality refers to the reason a person was detained: did they
 
 Apprehension_landmark is supposed to indicate where a detainee was originally apprehended. However, this field is documented as being used inconsistently across records — sometimes containing the name of a police department, sheriff's office, or local jail, but more often absent entirely. My analysis found this gap to be especially pronounced for individuals whose only offense was an immigration violation. The location of their detainment, in many cases, simply does not exist in the record. This is where the absence of data becomes most visible — and, this paper argues, most deliberate.
 
-![alt text](erasuremap.png)
+
 
 ![alt text](landmark_graph.png)
-
 
 ![alt text](landmark_percentages.png)
 
@@ -68,6 +67,7 @@ I have also investigated existing works like, the library of missing datasets by
 
 This is a deliberate tactic to control the narrative: to reduce the documented number of people, places, and horrific situations the government has been responsible for. The absence of these data strings further advances the “permanent deletion” of immigrants. If there is no evidence of their actions, accountability becomes impossible. This absence is another form of dehumanization — one that operates not in detention centers but in code, in databases, in the infrastructure of government technology. Immigrants become numbers, if they are counted at all, rather than human beings being abused by the very systems meant to govern justly.
 
+![alt text](erasuremap.png)
 
 -- (data point of apprehension by criminality)
 -- since trumps presidency, the surge of '3 immigration violation' apprehension of criminality 
