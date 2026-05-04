@@ -78,12 +78,3 @@ Mimi Onuoha, "On Missing Datasets," GitHub repository, 2016, https://github.com/
 
 David Hausman, "U.S. Immigration Enforcement Data," California Law Review Online 16, no. 13 (March 2025), https://www.californialawreview.org/online/immigration-enforcement-guide.
 
--- (data point of apprehension by criminality)
--- since trumps presidency, the surge of '3 immigration violation' apprehension of criminality 
--- express what '1 criminal charges, 2 pending criminal charges, and '3 immigration violation' means 
--- this means they are not detaining people based on actual criminal charges but immigration violation, which is not a criminal offense. rather a civil disobediance, equalviant to jaywalking 
-
--- (data point to landmark_null)
--- shows a detailed lack of landmark evidence 
--- although in some data points, it is shown that landmarks have existing data, this is only tied to certain detainees who have been in the criminal system, and are currently detained/incarciated
--- however, for the majority of detainees, which are only violating immigration charges, 
