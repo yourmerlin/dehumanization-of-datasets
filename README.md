@@ -44,7 +44,6 @@ Apprehension_by_criminality refers to the reason a person was detained: did they
 Apprehension_landmark is supposed to indicate where a detainee was originally apprehended. However, this field is documented as being used inconsistently across records — sometimes containing the name of a police department, sheriff's office, or local jail, but more often absent entirely. My analysis found this gap to be especially pronounced for individuals whose only offense was an immigration violation. The location of their detainment, in many cases, simply does not exist in the record. This is where the absence of data becomes most visible — and, this paper argues, most deliberate.
 
 
-
 ![alt-text-1](landmark_graph.png)
 <sub>University of Washington Center for Human Rights (UWCHR), "Proportion of encounters missing landmark value," figure from "ICE ERO-LESA Enforcement Events FY12–22: Analysis of 'Landmark' Fields," October 31, 2024, https://uwchr.github.io/ice-enforce/landmarks.html.</sub>
 
@@ -66,15 +65,21 @@ In her book Automating Inequality: How High-Tech Tools Profile, Police, and Puni
 
 Eubanks also discusses how marginalized groups face higher levels of data collection when they access public benefits, walk through heavily policed neighborhoods, enter the healthcare system, or cross national borders. This abundance of data collection is used as a mechanism of control over marginalized communities. So then, wouldn’t the complete absence of data be another tactic of that same control? The government is not limited by the availability of tools, so the mismanagement of data cannot be attributed to a lack of access. It is the result of negligence — purposeful carelessness toward the autonomy of immigrants.
 
-I have also investigated existing works like, the library of missing datasets by mimi onouha, an artist working in data. 
+I have also investigated existing works like the Library of Missing Datasets by Mimi Onuoha, an artist working in data. She explores the 'missing' of datasets and introduces the idea of data that should exist but does not. Missing data is more so an idea about what 'we deem important,' which shows how our collective choices can reveal our hidden social and racial biases. Her inference about why data is missing is an idea I agree with; however, my push for absence has to do with the fact that this data is in the hands of an abusive government corporation — one that has been clear about its negligence and horrific tactics. There have been several cases where ICE detention facilities have been negligent about the care of immigrants, putting them in harmful and inhumane conditions. The conditions are not ones that can sustain a human being, and the lack of data and secrecy around what actually happens and who is detained only compounds this. I push for a further idea of missingness — absence — to showcase the attempt at 'permanent deletion' of immigrants. Prior physical evidence, in accumulation with the lack of data, pushes for this idea of absence: to not exist.
 
 This is a deliberate tactic to control the narrative: to reduce the documented number of people, places, and horrific situations the government has been responsible for. The absence of these data strings further advances the “permanent deletion” of immigrants. If there is no evidence of their actions, accountability becomes impossible. This absence is another form of dehumanization — one that operates not in detention centers but in code, in databases, in the infrastructure of government technology. Immigrants become numbers, if they are counted at all, rather than human beings being abused by the very systems meant to govern justly.
 
 ![alt text](erasuremap1x2scale.png)
 
-That is actually a 20 x 1 scale. This is the real 1 to 1 scale
+If you think that is alot, this image actually represents a 20:1 scale. 
+
+This is the real 1:1 scale.
 
 ![alt text](erasuremap1x1scale.png)
+
+This is only measuring from October 2022 to March 2026—of people that we know of, on top of the previous years. Each individual's absence from this country is permanent; it's left in the places they've been, the people they have left behind, the objects they owned. Their disappearance will never be forgotten. Their imprint will forever be permanent, regardless of whether the government tries to erase them.
+
+We often get overwhelmed by mass amounts of visualization. This is the emptiness of it.
 
 # References
 Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (New York: St. Martin's Press, 2018).
