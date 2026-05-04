@@ -67,7 +67,18 @@ I have also investigated existing works like, the library of missing datasets by
 
 This is a deliberate tactic to control the narrative: to reduce the documented number of people, places, and horrific situations the government has been responsible for. The absence of these data strings further advances the “permanent deletion” of immigrants. If there is no evidence of their actions, accountability becomes impossible. This absence is another form of dehumanization — one that operates not in detention centers but in code, in databases, in the infrastructure of government technology. Immigrants become numbers, if they are counted at all, rather than human beings being abused by the very systems meant to govern justly.
 
-![alt text](erasuremap.png)
+![alt text](erasuremap1x20scale.png)
+
+That is actually a 20 x 1 scale. This is the real 1 to 1 scale
+
+![alt text](erasuremap1x1scale.png)
+
+# References
+Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (New York: St. Martin's Press, 2018).
+
+Mimi Onuoha, "On Missing Datasets," GitHub repository, 2016, https://github.com/MimiOnuoha/missing-datasets.
+
+David Hausman, "U.S. Immigration Enforcement Data," California Law Review Online 16, no. 13 (March 2025), https://www.californialawreview.org/online/immigration-enforcement-guide.
 
 -- (data point of apprehension by criminality)
 -- since trumps presidency, the surge of '3 immigration violation' apprehension of criminality 
