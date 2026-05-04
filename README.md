@@ -37,14 +37,13 @@ Apprehension_type refers to whether an individual was targeted or collateral —
 
 Apprehension_method refers to the tactic used to detain the individual. The categories are: located, non-custodial arrest, custodial arrest, 287(g) program, and border patrol. These are two distinct but related categories: located and non-custodial arrest are each separate designations, though researchers often combine them because both are more likely to indicate individuals arrested from their communities — their homes, workplaces, or public spaces. Custodial arrest, the 287(g) program, and border patrol, by contrast, tend to indicate detention originating from a state or local jail, prison, or federal facility.
 
-![alt text](arrest_by_criminality.png)
-
 Apprehension_by_criminality refers to the reason a person was detained: did they have an actual criminal charge, or were they detained solely for violating their immigration status? There has been a sharp and documented surge in detainees held for immigration status violations alone, particularly since the start of Trump's second term. As of April 2026, over 70% of people held in ICE detention had no criminal conviction of any kind. This distinction is critical — but it requires precision. Unlawful presence (overstaying a visa, remaining after an order to leave, violating the terms of a legal entry) is a civil violation, not a criminal offense — comparable in legal weight to a traffic infraction. Unlawful entry, meaning crossing the border without documentation, is technically a misdemeanor on the first offense and a felony on repeat offenses. Depending on which charge applies, these individuals may not have committed a crime in any meaningful sense — and the data shows they are now the majority of people in ICE custody.
 
+![alt text](arrest_by_criminality.png)
 
 Apprehension_landmark is supposed to indicate where a detainee was originally apprehended. However, this field is documented as being used inconsistently across records — sometimes containing the name of a police department, sheriff's office, or local jail, but more often absent entirely. My analysis found this gap to be especially pronounced for individuals whose only offense was an immigration violation. The location of their detainment, in many cases, simply does not exist in the record. This is where the absence of data becomes most visible — and, this paper argues, most deliberate.
 
-
+![alt text](erasuremap.png)
 
 Here are two charts 1 visualizing the grief and overwhelming amount of people wrongfully detained by ICE, showcasing the permanent absence of their existence in the US, by visually erasing the US by each indiviual taken
 2 chat visualizing the absence of data on a graph to show the intentional gaps in the data. how this negligence and mismanagement is purposeful
