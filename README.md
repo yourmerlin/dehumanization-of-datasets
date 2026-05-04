@@ -37,17 +37,15 @@ Apprehension_type refers to whether an individual was targeted or collateral —
 
 Apprehension_method refers to the tactic used to detain the individual. The categories are: located, non-custodial arrest, custodial arrest, 287(g) program, and border patrol. These are two distinct but related categories: located and non-custodial arrest are each separate designations, though researchers often combine them because both are more likely to indicate individuals arrested from their communities — their homes, workplaces, or public spaces. Custodial arrest, the 287(g) program, and border patrol, by contrast, tend to indicate detention originating from a state or local jail, prison, or federal facility.
 
+![alt text](arrest_by_criminality.png)
+
 Apprehension_by_criminality refers to the reason a person was detained: did they have an actual criminal charge, or were they detained solely for violating their immigration status? There has been a sharp and documented surge in detainees held for immigration status violations alone, particularly since the start of Trump's second term. As of April 2026, over 70% of people held in ICE detention had no criminal conviction of any kind. This distinction is critical — but it requires precision. Unlawful presence (overstaying a visa, remaining after an order to leave, violating the terms of a legal entry) is a civil violation, not a criminal offense — comparable in legal weight to a traffic infraction. Unlawful entry, meaning crossing the border without documentation, is technically a misdemeanor on the first offense and a felony on repeat offenses. Depending on which charge applies, these individuals may not have committed a crime in any meaningful sense — and the data shows they are now the majority of people in ICE custody.
+
 
 Apprehension_landmark is supposed to indicate where a detainee was originally apprehended. However, this field is documented as being used inconsistently across records — sometimes containing the name of a police department, sheriff's office, or local jail, but more often absent entirely. My analysis found this gap to be especially pronounced for individuals whose only offense was an immigration violation. The location of their detainment, in many cases, simply does not exist in the record. This is where the absence of data becomes most visible — and, this paper argues, most deliberate.
 
 
 
-Some of my key questions and findings were:
--- What does Apprehension_type mean?
--- What does Apprehension_method mean? Did they do specific things to 'apprehend' the detainees? The way they catorigized the information was custodial arrest, non-custodial arrest, 287(g) program, and patrol border. 
--- What is the difference between '1 criminal charges, 2 pending criminal charges, and '3 immigration violation' under the apprehension by criminality? 
--- landmark and apprehension_landmark is supposed to indicate where the detainee was originally detained. Where did ice kidnap them? For people whose offense was simple an immigration violation, their apprehension_landmark data over an overwhemly large percentage of landmark_null, which meant there was to data tied to their detainment. this becomes the absence of data. 
 Here are two charts 1 visualizing the grief and overwhelming amount of people wrongfully detained by ICE, showcasing the permanent absence of their existence in the US, by visually erasing the US by each indiviual taken
 2 chat visualizing the absence of data on a graph to show the intentional gaps in the data. how this negligence and mismanagement is purposeful
 
@@ -61,6 +59,8 @@ Historically and socially, mass surveillance tools have been deployed by police,
 In her book Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor, Virginia Eubanks writes about how many of the devices that collect our information and monitor our actions are inscrutable, invisible pieces of code — embedded in our social media interactions and woven through applications for government services. In her specific analysis, she examines how low-income and marginalized communities are disproportionately entangled in insurance investigations and burdened with medical debt as a result of algorithmic decision-making.
 
 Eubanks also discusses how marginalized groups face higher levels of data collection when they access public benefits, walk through heavily policed neighborhoods, enter the healthcare system, or cross national borders. This abundance of data collection is used as a mechanism of control over marginalized communities. So then, wouldn’t the complete absence of data be another tactic of that same control? The government is not limited by the availability of tools, so the mismanagement of data cannot be attributed to a lack of access. It is the result of negligence — purposeful carelessness toward the autonomy of immigrants.
+
+I have also investigated existing works like, the library of missing datasets by mimi onouha, an artist working in data. 
 
 This is a deliberate tactic to control the narrative: to reduce the documented number of people, places, and horrific situations the government has been responsible for. The absence of these data strings further advances the “permanent deletion” of immigrants. If there is no evidence of their actions, accountability becomes impossible. This absence is another form of dehumanization — one that operates not in detention centers but in code, in databases, in the infrastructure of government technology. Immigrants become numbers, if they are counted at all, rather than human beings being abused by the very systems meant to govern justly.
 
