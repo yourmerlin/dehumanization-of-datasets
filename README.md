@@ -116,5 +116,5 @@ Transactional Records Access Clearinghouse. "About the FOIA Project." FOIAprojec
 
 Virginia Eubanks, Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor (New York: St. Martin's Press, 2018).
 
-Note: I did use claude to help me organize + parse the data. All research and information was done by me :)
+Note: I did use claude to help me organize + parse the data. This is just means it took the spreadsheets I organized, and be able to put it into code, instead of me manually copy + pasting. All research and information was done by me :)
 
