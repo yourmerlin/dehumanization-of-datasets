@@ -4,68 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ICE Apprehensions by Criminality Type</title>
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    body {
-      background: #0d0d0d;
-      color: #c8c8c8;
-      font-family: 'Courier New', Courier, monospace;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding: 36px 20px 48px;
-    }
-
-    header {
-      width: 100%;
-      max-width: 960px;
-      margin-bottom: 28px;
-    }
-
-    h1 {
-      font-size: clamp(13px, 1.8vw, 17px);
-      font-weight: 700;
-      letter-spacing: 0.07em;
-      text-transform: uppercase;
-      color: #e8e8e8;
-      line-height: 1.5;
-    }
-
-    .subtitle {
-      margin-top: 10px;
-      font-size: clamp(11px, 1.3vw, 13px);
-      color: #5a5a5a;
-      letter-spacing: 0.04em;
-      line-height: 1.7;
-      max-width: 720px;
-    }
-
-    .subtitle strong {
-      color: #e05a4e;
-      font-weight: 700;
-    }
-
-    #chart {
-      width: 100%;
-      max-width: 960px;
-    }
-
-    footer {
-      width: 100%;
-      max-width: 960px;
-      margin-top: 24px;
-      font-size: 10px;
-      color: #383838;
-      letter-spacing: 0.05em;
-      line-height: 1.9;
-      border-top: 1px solid #1c1c1c;
-      padding-top: 14px;
-    }
-
-    footer strong { color: #555; }
-  </style>
 </head>
 <body>
   <header>
@@ -89,5 +27,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
   <script src="apprehension_visualizer.js"></script>
+  <script src="arrests_by_criminality.css"></script>
 </body>
 </html>

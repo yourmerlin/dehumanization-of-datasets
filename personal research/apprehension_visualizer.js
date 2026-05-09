@@ -351,13 +351,10 @@ series.forEach((thisSeries, seriesIndex) => {
     .attr("width",  finalBox.width  + pillPadding.x * 2)
     .attr("height", finalBox.height + pillPadding.y * 2);
 
-  // Make sure the text renders above the background rect
   labelText.raise();
 });
 
 
-// ── PEAK CALLOUT ──────────────────────────────────────────────────────────────
-// Mark the December 2025 peak for "Other Immigration Violator": 19,162 arrests,
 // a 17× increase over December 2024 (which had 1,137).
 
 const peakMonthIndex = months.indexOf("2025-12");
