@@ -30,7 +30,7 @@ const series = [
     key:   "violator",
     label: "OTHER IMMIGRATION VIOLATOR",
     color: "#e05a4e",
-    // These people have no criminal charge — only an immigration rule violation.
+    // These people have no criminal charge
     counts: [11316,11042,10213,12492,10253,8738,7319,6948,5945,5086,5552,5050,4264,3268,4320,2802,2925,2727,2898,2696,2012,1977,1672,1655,1543,1150,1137,2629,3955,3888,3669,6244,12470,9854,10207,13758,15811,15275,19162,17769,12538,4263],
   },
 ];
