@@ -1,4 +1,3 @@
-// ── DATA ──────────────────────────────────────────────────────────────────────
 // Monthly ICE arrest counts split by ICE's own criminality classification.
 // Source: arrests_filtered_20260501_232322.parquet — 713,464 records total.
 // All three categories together account for every row in that file.
@@ -37,7 +36,6 @@ const series = [
 ];
 
 
-// ── CHART DIMENSIONS ──────────────────────────────────────────────────────────
 
 const chartContainer = document.getElementById("chart");
 const totalWidth  = Math.min(chartContainer.clientWidth || 920, 960);
@@ -46,15 +44,11 @@ const chartWidth  = totalWidth - margin.left - margin.right;
 const chartHeight = Math.round(chartWidth * 0.50);
 
 
-// ── CONVERT "2025-01" STRINGS INTO JAVASCRIPT DATE OBJECTS ───────────────────
+// converts string into js obj
 
 const parseMonth = d3.timeParse("%Y-%m");
 const dates = months.map(parseMonth);
 
-
-// ── SCALES: map data values onto pixel positions ───────────────────────────────
-// xScale: a date maps to a horizontal pixel position
-// yScale: an arrest count maps to a vertical pixel position
 
 const xScale = d3.scaleTime()
   .domain([ dates[0], dates[dates.length - 1] ])
@@ -64,11 +58,8 @@ const highestCount = d3.max(series, s => d3.max(s.counts));
 
 const yScale = d3.scaleLinear()
   .domain([ 0, highestCount * 1.08 ])
-  .range([ chartHeight, 0 ])  // inverted: 0 arrests = bottom of chart
+  .range([ chartHeight, 0 ])  
   .nice();
-
-
-// ── BUILD THE SVG CANVAS ──────────────────────────────────────────────────────
 
 const svg = d3.select("#chart")
   .append("svg")
@@ -76,26 +67,22 @@ const svg = d3.select("#chart")
   .attr("height", chartHeight + margin.top + margin.bottom)
   .style("display", "block");
 
-// Dark background rectangle
 svg.append("rect")
   .attr("width",  totalWidth)
   .attr("height", chartHeight + margin.top + margin.bottom)
   .attr("fill", "#0d0d0d");
 
-// Everything inside the chart gets shifted by the margin so axes have room
 const chart = svg.append("g")
   .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
 
-// ── GRIDLINES ─────────────────────────────────────────────────────────────────
 
-// Horizontal gridlines at each y-axis tick
 chart.append("g")
   .call(
     d3.axisLeft(yScale)
       .ticks(5)
-      .tickSize(-chartWidth)   // negative = lines shoot right across the chart
-      .tickFormat("")           // no text, just the lines
+      .tickSize(-chartWidth)   
+      .tickFormat("")           
   )
   .call(axis => axis.select(".domain").remove())
   .call(axis => axis.selectAll(".tick line")
@@ -119,9 +106,9 @@ chart.append("g")
   );
 
 
-// ── X AXIS (months along the bottom) ─────────────────────────────────────────
-// Labels are rotated 90° so they fit without overlapping.
-// January shows the year ("Jan '25"); other months show just the abbreviation.
+//X AXIS (months along the bottom) 
+//labels are rotated 90° so they fit without overlapping.
+//january shows the year ("Jan '25"); other months show just the abbreviation.
 
 function formatMonthLabel(date) {
   if (date.getMonth() === 0) {
@@ -151,7 +138,7 @@ chart.append("g")
   );
 
 
-// ── Y AXIS (arrest counts along the left) ────────────────────────────────────
+//Y AXIS (arrest counts along the left) 
 
 chart.append("g")
   .call(
@@ -182,7 +169,7 @@ chart.append("text")
   .text("APPREHENSIONS / MONTH");
 
 
-// ── TRUMP INAUGURATION MARKER ─────────────────────────────────────────────────
+// TRUMP INAUGURATION MARKER 
 
 const inaugurationX = xScale(parseMonth("2025-01"));
 
@@ -206,11 +193,6 @@ chart.append("text")
   .text("TRUMP INAUGURATION  JAN 20, 2025");
 
 
-// ── DRAW THE LINES ────────────────────────────────────────────────────────────
-// lineGenerator turns an array of counts into one SVG path string.
-// We draw "convicted" and "pending" first so "violator" (the main story)
-// renders on top of them.
-
 const lineGenerator = d3.line()
   .x((count, index) => xScale(dates[index]))
   .y(count => yScale(count))
@@ -233,21 +215,6 @@ drawOrder.forEach(key => {
 });
 
 
-// ── DIRECTLY LABEL EACH LINE (no separate legend needed) ──────────────────────
-//
-// Algorithm (from Harry Stevens, observablehq.com/@harrystevens/directly-labelling-lines):
-//
-//   Step 1 — Flatten every data point from every series into one list.
-//   Step 2 — Build a Voronoi diagram over those points.
-//             A Voronoi diagram divides the space so that each point "owns"
-//             the region closest to it.
-//   Step 3 — For each series, find the point whose Voronoi cell is largest.
-//             That point is where this line is most spatially isolated from
-//             all the other lines — the best spot to place a readable label.
-//   Step 4 — Place the label there, then nudge it toward the cell's centroid
-//             until it no longer overlaps any data point.
-
-// Step 1: collect every (x, y) pixel position for every data point
 const allPoints = [];
 
 series.forEach((thisSeries, seriesIndex) => {
@@ -262,20 +229,17 @@ series.forEach((thisSeries, seriesIndex) => {
   });
 });
 
-// Step 2: build the Voronoi diagram
+
 const delaunay = d3.Delaunay.from(allPoints, point => point.x, point => point.y);
 const voronoi  = delaunay.voronoi([ 0, 0, chartWidth, chartHeight ]);
 
-// Steps 3 & 4: find best cell per series, place the label, nudge until clear
 series.forEach((thisSeries, seriesIndex) => {
 
-  // Collect just the points belonging to this series, keeping their index
-  // into allPoints (needed to look up their Voronoi cell)
+
   const pointsInThisSeries = allPoints
     .map((point, index) => ({ ...point, allPointsIndex: index }))
     .filter(point => point.seriesIndex === seriesIndex);
 
-  // Find the point whose Voronoi cell has the largest area
   let bestPoint    = null;
   let bestArea     = -Infinity;
   let bestCell     = null;
@@ -293,19 +257,15 @@ series.forEach((thisSeries, seriesIndex) => {
 
   if (!bestPoint || !bestCell) return;
 
-  // The centroid is the "center of mass" of the Voronoi cell.
-  // We nudge the label from bestPoint toward this centroid.
+
   const cellCentroid = d3.polygonCentroid(bestCell);
 
   let labelX = bestPoint.x;
   let labelY = bestPoint.y;
 
-  // Each nudge step moves 1/50th of the way from the data point to the centroid
   const nudgeX = (cellCentroid[0] - labelX) / 50;
   const nudgeY = (cellCentroid[1] - labelY) / 50;
 
-  // Place a semi-transparent background pill so the label stays legible
-  // over whatever lines are behind it
   const labelBackground = chart.append("rect")
     .attr("rx",           2)
     .attr("fill",         "#0d0d0d")
@@ -322,7 +282,6 @@ series.forEach((thisSeries, seriesIndex) => {
     .attr("letter-spacing", "0.06em")
     .text(thisSeries.label);
 
-  // Nudge up to 50 times until the label's bounding box is clear of all points
   for (let attempt = 0; attempt < 50; attempt++) {
     const box = labelText.node().getBBox();
     const padding = 4;
@@ -351,14 +310,11 @@ series.forEach((thisSeries, seriesIndex) => {
     .attr("width",  finalBox.width  + pillPadding.x * 2)
     .attr("height", finalBox.height + pillPadding.y * 2);
 
-  // Make sure the text renders above the background rect
   labelText.raise();
 });
 
 
-// ── PEAK CALLOUT ──────────────────────────────────────────────────────────────
-// Mark the December 2025 peak for "Other Immigration Violator": 19,162 arrests,
-// a 17× increase over December 2024 (which had 1,137).
+
 
 const peakMonthIndex = months.indexOf("2025-12");
 
