@@ -90,7 +90,6 @@ chart.append("g")
     .attr("stroke-width", 1)
   );
 
-// Vertical gridlines — one per month, stronger on January (year boundary)
 chart.append("g")
   .attr("transform", `translate(0, ${chartHeight})`)
   .call(
@@ -156,7 +155,7 @@ chart.append("g")
     .attr("dx",          "-6px")
   );
 
-// Y-axis label, rotated sideways
+//Y-axis label, rotated sideways
 chart.append("text")
   .attr("transform",   "rotate(-90)")
   .attr("x",           -chartHeight / 2)
@@ -169,7 +168,7 @@ chart.append("text")
   .text("APPREHENSIONS / MONTH");
 
 
-// TRUMP INAUGURATION MARKER 
+//TRUMP INAUGURATION MARKER 
 
 const inaugurationX = xScale(parseMonth("2025-01"));
 
@@ -300,7 +299,6 @@ series.forEach((thisSeries, seriesIndex) => {
     labelText.attr("x", labelX).attr("y", labelY);
   }
 
-  // Size and position the background pill to match the final label position
   const finalBox    = labelText.node().getBBox();
   const pillPadding = { x: 5, y: 3 };
 
